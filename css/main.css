@@ -121,3 +121,9 @@ body {
   color: white;
   font-size: 1.2em;
 }
+
+.fb-info img {
+  border-radius: 50%;
+  height: 50px;
+  padding: 2px;
+}
