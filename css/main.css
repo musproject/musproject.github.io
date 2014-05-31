@@ -51,3 +51,12 @@ body {
   padding-right: .3em;
   padding-left: .3em;
 }
+
+.post h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.post .media-object {
+  width: 100px;
+}
