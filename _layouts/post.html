@@ -14,7 +14,14 @@ layout: default
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<h3>{{ page.title }}</h3>
+				<div class="row">
+					<div class="col-md-10">
+						<h3>{{ page.title }}</h3>
+					</div>
+					<div class="col-md-2">
+						Ratings
+					</div>
+				</div>
 
 				<div>{{ content }}</div>
 			</div>
@@ -29,15 +36,21 @@ layout: default
 		  </a>
 		  <div class="media-body">
 		    <h4 class="media-heading">{{page.artist_name}}</h4>
-		    {{page.artist_info}}
+		    <h4 class="media-heading">Age: {{page.artist_age}}</h4>
+		    <h4 class="media-heading">Genre: {{page.artist_genre}}</h4>
+		    
 		  </div>
 		</div>
+
+		{{page.artist_info}}
+
+		<a class="btn btn-block btn-lg btn-success donate">Donate</a>
 	</div>
 
 </div>
 
 <div class="row comments">
 	<div class="col-md-9 well">
-		Comments
+		<div class="fb-comments" data-numposts="5" data-colorscheme="light"></div>
 	</div>
 </div>

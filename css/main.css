@@ -53,10 +53,25 @@ body {
 }
 
 .post h3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 0;
 }
 
 .post .media-object {
   width: 100px;
+}
+
+.post .media {
+  margin-bottom: .5em;
+}
+
+.post .donate {
+  margin: .5em 0;
+}
+
+.artist-info {
+  padding-top: 1em;
+}
+
+.fb-comments iframe, .fb-comments, fb-comments iframe[style], .fb-comments span {
+  width: 100% !important;
 }
