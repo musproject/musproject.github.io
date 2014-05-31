@@ -1,0 +1,10 @@
+# Site settings
+title: Music Pro
+email: musicpro@musicpro.ge
+description: "Wow such meta, much description, very music"
+baseurl: ""
+url: "http://localhost"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
