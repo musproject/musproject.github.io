@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Simple Post"
 date:   2014-05-31 11:38:40
 categories: jekyll update
 youtube: HLUe47n2Fag
+thumb: https://s3.amazonaws.com/ksr/projects/983989/photo-little.jpg?1401116074
 ---
 
 Wow such post
