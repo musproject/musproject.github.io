@@ -36,3 +36,18 @@ body {
   border-radius:3px;
   user-select:none;
 }
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 100%;
+  padding: .2em .5em;
+  padding-right: .3em;
+}
+
+.navbar-brand span {
+  display: inline-block;
+  vertical-align: middle;
+}
