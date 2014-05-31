@@ -40,7 +40,7 @@ body {
 .navbar-brand {
   padding: 0;
   padding-right: .5em;
-  color: white;
+  color: white !important;
 }
 
 .navbar-brand img {
