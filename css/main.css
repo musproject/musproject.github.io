@@ -52,6 +52,15 @@ body {
   padding-left: .3em;
 }
 
+.navbar-nav a {
+  font-size: 1.3em;
+  color: white !important;
+}
+
+.fa {
+  vertical-align: middle;
+}
+
 .post h3 {
   margin: 0;
 }
@@ -88,4 +97,17 @@ body {
 
 .rating {
   text-align: center;
+}
+
+.fb-login {
+  transition: background-color .5s;
+  margin-left: .5em;
+}
+
+.fb-login:hover {
+  background-color: #3b5998 !important;
+}
+
+.fb-login .fa {
+  padding-right: .2em;
 }
