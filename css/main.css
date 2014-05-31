@@ -39,15 +39,14 @@ body {
 
 .navbar-brand {
   padding: 0;
+  padding-right: .5em;
 }
 
 .navbar-brand img {
-  height: 100%;
-  padding: .2em .5em;
-  padding-right: .3em;
-}
-
-.navbar-brand span {
   display: inline-block;
   vertical-align: middle;
+  max-height: 100%;
+  padding: .2em;
+  padding-right: .3em;
+  padding-left: .3em;
 }
