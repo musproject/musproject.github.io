@@ -23,4 +23,12 @@ var checkLogin = function() {
 	});
 }
 
+FB.init({
+  appId      : '764986430198349',
+  cookie     : true,  // enable cookies to allow the server to access 
+                      // the session
+  xfbml      : true,  // parse social plugins on this page
+  version    : 'v2.0' // use version 2.0
+});
+
 checkLogin();
