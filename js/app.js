@@ -22,3 +22,5 @@ var checkLogin = function() {
 		}
 	});
 }
+
+checkLogin();
