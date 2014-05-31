@@ -74,7 +74,13 @@ body {
 }
 
 .post .donate {
-  margin: .5em 0;
+  margin: 1em 0;
+  background-color: #A3F54A;
+  transition: background-color .5s;
+}
+
+.post .donate:hover {
+  background-color: #81C933;
 }
 
 .artist-info {
@@ -96,6 +102,7 @@ body {
 }
 
 .rating {
+  margin: 1em auto;
   text-align: center;
 }
 

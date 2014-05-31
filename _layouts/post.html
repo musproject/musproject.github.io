@@ -35,12 +35,22 @@ layout: default
 	<div class="col-md-3 artist-info">
 		<div class="media">
 		  <a class="pull-left" href="#">
+		  	{% if page.artist_pic %}
 		    <img class="media-object" src="{{page.artist_pic}}" alt="Artist's picture">
+		  	{% endif %}
 		  </a>
 		  <div class="media-body">
+		  	{% if page.artist_name %}
 		    <h4 class="media-heading">{{page.artist_name}}</h4>
+		    {% endif %}
+
+		    {% if page.artist_age %}
 		    <h4 class="media-heading">Age: {{page.artist_age}}</h4>
+		    {% endif %}
+
+		    {% if page.artist_genre %}
 		    <h4 class="media-heading">Genre: {{page.artist_genre}}</h4>
+		    {% endif %}
 		    
 		  </div>
 		</div>
