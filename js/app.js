@@ -10,7 +10,8 @@ $(".fb-login").click(fbLogin);
 
 var checkLogin = function() {
 	FB.getLoginStatus(function(status){
-		if(status == "connected") {
+		console.log(status);
+		if(status.status == "connected") {
 			$(".fb-login").hide();
 			$(".fb-info").show();
 			FB.api("/me/picture", function(res){
