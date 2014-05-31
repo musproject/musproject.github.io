@@ -4,26 +4,29 @@ layout: default
 
 <div class="row post">
 
-	<div class="col-md-9 well">
+	<div class="col-md-9 well video-container">
 		<div class="row">
 			<div class="col-md-12">
 			<div class="video">
-				<iframe src="http://www.youtube.com/embed/{{page.youtube}}?theme=light&controls=2&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+				<iframe src="http://www.youtube.com/embed/{{page.youtube}}?modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-10">
-						<h3>{{ page.title }}</h3>
+					<div class="col-md-8">
+						<h3 class="video-title">{{ page.title }}</h3>
+
+						<div>{{ content }}</div>
 					</div>
-					<div class="col-md-2">
-						Ratings
+					<div class="col-md-4">
+						<a class="btn btn-block btn-lg btn-success donate">Donate</a>
+
+						<div class="rating">
+						</div>
 					</div>
 				</div>
-
-				<div>{{ content }}</div>
 			</div>
 		</div>
 	</div>
@@ -44,7 +47,6 @@ layout: default
 
 		{{page.artist_info}}
 
-		<a class="btn btn-block btn-lg btn-success donate">Donate</a>
 	</div>
 
 </div>

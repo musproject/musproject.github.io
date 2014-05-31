@@ -1,0 +1,3 @@
+$(".rating").raty({
+	width: false,
+});

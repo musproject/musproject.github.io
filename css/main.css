@@ -75,3 +75,17 @@ body {
 .fb-comments iframe, .fb-comments, fb-comments iframe[style], .fb-comments span {
   width: 100% !important;
 }
+
+.video-container {
+  background: #1B1B1B;
+  color: white;
+}
+
+.video-container .video-title {
+  margin-top: .5em;
+  margin-bottom: .3em;
+}
+
+.rating {
+  text-align: center;
+}
