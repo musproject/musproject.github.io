@@ -111,3 +111,13 @@ body {
 .fb-login .fa {
   padding-right: .2em;
 }
+
+.fb-status {
+  margin: 0 .5em;
+  display: none;
+}
+
+.fb-status span {
+  color: white;
+  font-size: 1.2em;
+}
