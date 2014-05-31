@@ -112,12 +112,12 @@ body {
   padding-right: .2em;
 }
 
-.fb-status {
+.fb-info {
   margin: 0 .5em;
   display: none;
 }
 
-.fb-status span {
+.fb-info span {
   color: white;
   font-size: 1.2em;
 }
