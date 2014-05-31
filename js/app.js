@@ -14,10 +14,10 @@ var checkLogin = function() {
 			$(".fb-login").hide();
 			$(".fb-info").show();
 			FB.api("/me/picture", function(res){
-				$(".fb-picture").attr("src", res.data.url);
+				$(".fb-info .picture").attr("src", res.data.url);
 			});
 			FB.api("/me", function(res){
-				$(".fb-name").text(res.first_name);
+				$(".fb-info .name").text(res.first_name);
 			});
 		}
 	});
