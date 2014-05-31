@@ -1,5 +1,9 @@
 $(".rating").raty({
 	width: false,
+	starOff: 'note-off.png',
+  starOn: 'note-on.png',
+  path: "/images/",
+  number: 7
 });
 
 var fbLogin = function() {
