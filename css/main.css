@@ -110,6 +110,10 @@ body {
   margin: 1em auto;
 }
 
+.rating img {
+  width: 2em;
+}
+
 .fb-login {
   transition: background-color .5s;
   margin-left: .5em;
@@ -146,4 +150,14 @@ body {
 .other-videos .artist-name {
   font-size: 90%;
   color: #6A6A6A;
+}
+
+.partners {
+  text-align: center;
+}
+
+.partners img {
+  width: 20%;
+  margin: 0 1%;
+  vertical-align: middle;
 }
