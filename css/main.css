@@ -161,3 +161,18 @@ body {
   margin: 0 1%;
   vertical-align: middle;
 }
+
+.donation-track {
+  height: 30px;
+  font-size: 2em;
+}
+
+.donation-track .progress-bar {
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.amount-left {
+  background: white;
+  color: #2d2d2d;
+}

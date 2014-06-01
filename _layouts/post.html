@@ -7,9 +7,8 @@ layout: default
 	<div class="col-md-8 well video-container">
 		<div class="row">
 			<div class="col-md-12">
-			<div class="video">
-				<iframe src="http://www.youtube.com/embed/{{page.youtube}}?modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-			</div>
+				<div class="video" data-video="{{ page.youtube }}">
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -27,6 +26,12 @@ layout: default
 					<div class="col-md-4">
 						<a class="btn btn-block btn-lg btn-success donate" 
 						data-toggle="modal" data-target="#donate-modal">Donate</a>
+
+						<div class="progress progress-striped donation-track">
+						  <div class="progress-bar progress-bar-success amount-raised" 
+						  style="width: 40%">$10</div>
+						  <div class="progress-bar amount-left" style="width: 60%">$25 left</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -97,7 +102,7 @@ layout: default
         <h4 class="modal-title">Donate to {{ page.artist_name }}</h4>
       </div>
       <div class="modal-body">
-        <form class="form-inline" action="" method="post">
+        <form class="form-inline" action="#" method="post">
         	<div class="row">
 	        	<div class="form-group col-md-9">
 	        		<div class="input-group">

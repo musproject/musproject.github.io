@@ -56,3 +56,11 @@ FB.init({
 });
 
 checkLogin();
+
+$(".video").each(function(){
+	$(this).append(
+		'<iframe src="http://www.youtube.com/embed/'
+		+ $(this).attr("data-video")
+		+ '?modestbranding=1&showinfo=0" frameborder="0" allowfullscreen>'
+	)
+});
