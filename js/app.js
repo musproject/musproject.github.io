@@ -41,7 +41,7 @@ var checkLogin = function() {
 }
 
 
-var appid = '764986430198349';
+var appId = '764986430198349';
 if(location.host.indexOf("localhost") == 0) {
 	appId = "765034950193497"
 }
