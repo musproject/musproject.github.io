@@ -3,7 +3,7 @@ title: Music Pro
 email: musicpro@musicpro.ge
 description: "Wow such meta, much description, very music"
 baseurl: ""
-url: "http://musicpro.ge"
+url: "http://musproject.github.io"
 
 # Build settings
 markdown: kramdown
