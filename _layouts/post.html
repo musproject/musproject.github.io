@@ -25,7 +25,8 @@ layout: default
 						</div>
 					</div>
 					<div class="col-md-4">
-						<a class="btn btn-block btn-lg btn-success donate">Donate</a>
+						<a class="btn btn-block btn-lg btn-success donate" 
+						data-toggle="modal" data-target="#donate-modal">Donate</a>
 					</div>
 				</div>
 			</div>
@@ -86,4 +87,31 @@ layout: default
 	<div class="col-md-8 well">
 		<div class="fb-comments" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" data-numposts="5" data-colorscheme="light"></div>
 	</div>
+</div>
+
+<div class="modal fade" id="donate-modal">
+	<div class="modal-dialog">
+    <div class="modal-content col-md-9">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Donate to {{ page.artist_name }}</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-inline" action="" method="post">
+        	<div class="row">
+	        	<div class="form-group col-md-9">
+	        		<div class="input-group">
+		        		<span class="input-group-addon">$</span>
+		        		<input type="text" class="form-control" placeholder="1.00">
+	        		</div>
+	        	</div>
+	        	<div class="form-group col-md-3" style="padding: 0;">
+	        		<button class="btn btn-success">Donate</button>
+	        	</div>
+        	</div>
+        </form>
+      </div>
+      <div class="modal-footer"></div>
+    </div>
+  </div>
 </div>
