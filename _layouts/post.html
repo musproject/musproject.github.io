@@ -19,12 +19,13 @@ layout: default
 						<h3 class="video-title">{{ page.title }}</h3>
 
 						<div>{{ content }}</div>
+
+						<h5>Rate:</h5>
+						<div class="rating">
+						</div>
 					</div>
 					<div class="col-md-4">
 						<a class="btn btn-block btn-lg btn-success donate">Donate</a>
-
-						<div class="rating">
-						</div>
 					</div>
 				</div>
 			</div>
@@ -34,14 +35,18 @@ layout: default
 
 	<div class="col-md-3 artist-info">
 		<div class="media">
-		  <a class="pull-left" href="#">
+		  <div class="pull-left">
 		  	{% if page.artist_pic %}
 		    <img class="media-object" src="{{page.artist_pic}}" alt="Artist's picture">
+		    {% else %}
+		    <i class="media-object fa fa-user"></i> 
 		  	{% endif %}
-		  </a>
+		  </div>
 		  <div class="media-body">
 		  	{% if page.artist_name %}
 		    <h4 class="media-heading">{{page.artist_name}}</h4>
+		    {% else %}
+		    <h4 class="media-heading">Unknown Artist</h4>
 		    {% endif %}
 
 		    {% if page.artist_age %}

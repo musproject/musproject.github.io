@@ -87,6 +87,11 @@ body {
   padding-top: 1em;
 }
 
+.artist-info i.media-object {
+  font-size: 4em;
+  text-align: center;
+}
+
 .fb-comments iframe, .fb-comments, fb-comments iframe[style], .fb-comments span {
   width: 100% !important;
 }
@@ -103,7 +108,6 @@ body {
 
 .rating {
   margin: 1em auto;
-  text-align: center;
 }
 
 .fb-login {
