@@ -68,6 +68,6 @@ layout: default
 
 <div class="row comments">
 	<div class="col-md-9 well">
-		<div class="fb-comments" data-numposts="5" data-colorscheme="light"></div>
+		<div class="fb-comments" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" data-numposts="5" data-colorscheme="light"></div>
 	</div>
 </div>
