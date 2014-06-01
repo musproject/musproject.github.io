@@ -138,3 +138,12 @@ body {
   height: 50px;
   padding: 2px;
 }
+
+.other-videos .media-body {
+  padding-left: .5em;
+}
+
+.other-videos .artist-name {
+  font-size: 90%;
+  color: #6A6A6A;
+}
