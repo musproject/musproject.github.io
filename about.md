@@ -8,7 +8,7 @@ permalink: /about/
 <div class="jumbotron">
 
 	<div class="jumbotron-photo">
-		<img src="http://bootflat.github.io/img/Jumbotron.jpg" alt="Team">
+		<img src="/images/team.jpg" alt="Team">
 	</div>
 
 	<div class="jumbotron-contents">
@@ -26,6 +26,18 @@ permalink: /about/
 
 
 <p>We believe that this idea will be a great encouragement for people who are keen on music and want to become a real musician in the real world !
+
+<h4>OUR CREW</h4>
+
+<ul>
+	<li>Boris Kiknadze – Political Scientist, Entrepreneur (Team Leader)
+	<li>Nikoloz Shvelidze – Web Developer
+	<li>Anna Kenkishvili – Designer
+	<li>Giorgi Giorgadze – Digital Engineer, Marketing
+	<li>Anuna Bukia – Journalist
+	<li>Misha Skhirtladze – Programmer
+	<li>Alexander Tkeshelashvili – Psychologist
+</ul>
 
 
 	</div>
