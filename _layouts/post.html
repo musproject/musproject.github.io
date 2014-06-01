@@ -102,12 +102,25 @@ layout: default
         <h4 class="modal-title">Donate to {{ page.artist_name }}</h4>
       </div>
       <div class="modal-body">
-        <form class="form-inline" action="#" method="post">
+        <form class="form-inline" 
+         action="https://e-commerce.cartubank.ge/servlet/Process3DSServlet/3dsproxy_init.jsp"
+         method="post">
+
+          <input type="hidden" name="PurchaseDesc" value="WeHelp-4722!1!!ucnobi__ucnobi!!41!!5!!0">
+          <input type="hidden" name="CountryCode" value="268">
+          <input type="hidden" name="CurrencyCode" value="981">
+          <input type="hidden" name="MerchantName" value="We help">
+          <input type="hidden" name="MerchantURL" 
+          value="http://www.wehelp.ge/view/content.php?id=41">
+          <input type="hidden" name="MerchantCity" value="Tbilisi">
+          <input type="hidden" name="MerchantID" value="000000008000761-00000001">
+          <input type="hidden" name="xDDDSProxy.Language" value="01">
+
         	<div class="row">
 	        	<div class="form-group col-md-9">
 	        		<div class="input-group">
 		        		<span class="input-group-addon">$</span>
-		        		<input type="text" class="form-control" placeholder="1.00">
+		        		<input type="text" name="purchaseAmt" class="form-control" placeholder="1.00">
 	        		</div>
 	        	</div>
 	        	<div class="form-group col-md-3" style="padding: 0;">
