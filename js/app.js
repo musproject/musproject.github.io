@@ -4,6 +4,7 @@ $(".rating").raty({
   starOn: 'note-on.png',
   path: "/images/",
   number: 7,
+  hints: [1,2,3,4,5,6,7],
   click: function(score) {
     localStorage[location.pathname] = score;
   }
