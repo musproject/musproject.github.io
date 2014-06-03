@@ -35,7 +35,7 @@ permalink: /about/
 	<li>Anna Kenkishvili – Designer
 	<li>Giorgi Giorgadze – Digital Engineer, Marketing
 	<li>Anuna Bukia – Journalist
-	<li>Misha Skhirtladze – Programmer
+	<li>Mikheil Skhirtladze – Programmer
 	<li>Alexander Tkeshelashvili – Psychologist
 </ul>
 
