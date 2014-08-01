@@ -1,0 +1,67 @@
+{
+  "data": {
+    "artist": [],
+    "video": []
+  },
+  "schema": {
+    "artist": {
+      "name": {
+        "type": "string"
+      },
+      "bio": {
+        "type": "string"
+      },
+      "picture": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    },
+    "video": {
+      "title": {
+        "type": "string"
+      },
+      "youtube_id": {
+        "type": "string"
+      },
+      "genre": {
+        "type": "string"
+      },
+      "artist": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    }
+  },
+  "counters": {
+    "artist": {},
+    "video": {}
+  }
+}

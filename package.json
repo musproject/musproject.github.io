@@ -1,7 +1,7 @@
 {
     "name": "musicpro",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.1.1",
     "description": "a Sails application",
     "dependencies": {
         "sails": "0.9.16",
@@ -16,6 +16,6 @@
     },
     "main": "app.js",
     "repository": "",
-    "author": "",
+    "author": "Nick Shvelidze <captain@pirrate.me>",
     "license": ""
 }
